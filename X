@@ -1,0 +1,33 @@
+body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; color: #333; }
+header { 
+    background: #0066cc url('images/hero.jpg') no-repeat center/cover; 
+    color: white; 
+    height: 70vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+header h1 { font-size: 3em; margin: 0; text-shadow: 2px 2px 5px rgba(0,0,0,0.5); }
+header p { font-size: 1.5em; margin: 10px 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); }
+nav { margin-top: 20px; }
+nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+
+section { padding: 60px 20px; max-width: 1200px; margin: auto; }
+h2 { color: #0066cc; text-align: center; margin-bottom: 40px; }
+
+.services { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; }
+.service { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); flex: 1 1 250px; text-align: center; transition: transform 0.3s; }
+.service:hover { transform: translateY(-10px); }
+.service i { font-size: 50px; color: #0066cc; margin-bottom: 20px; }
+
+.contact-form { display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: auto; }
+.contact-form input, .contact-form textarea { padding: 12px; border: 1px solid #ccc; border-radius: 8px; width: 100%; }
+.contact-form button { background-color: #0066cc; color: white; padding: 12px; border: none; border-radius: 8px; font-size: 1em; cursor: pointer; transition: 0.3s; }
+.contact-form button:hover { background-color: #004999; }
+
+footer { background-color: #333; color: white; text-align: center; padding: 20px 0; }
+a { color: #0066cc; text-decoration: none; }
+a:hover { text-decoration: underline; }
